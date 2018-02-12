@@ -47,8 +47,9 @@ public class NewJFrame extends javax.swing.JFrame {
 
         cantidadLabel.setText("Cantidad a suministrar en ml.");
 
-        resultado.setBackground(new java.awt.Color(255, 255, 255));
+        resultado.setBackground(new java.awt.Color(0, 102, 255));
         resultado.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        resultado.setOpaque(true);
 
         calcularButton.setText("Calcular");
         calcularButton.addActionListener(new java.awt.event.ActionListener() {
